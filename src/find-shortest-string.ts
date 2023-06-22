@@ -12,7 +12,7 @@ function findShortestString(stringArr: string[]): string {
       shortestString = str;
     }
   }
-  return shortestString.length;
+  return shortestString;
 }
 
 export default findShortestString;
